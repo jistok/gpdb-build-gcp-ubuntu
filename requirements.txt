@@ -1,0 +1,4 @@
+psutil
+lockfile>=0.9.1
+paramiko
+setuptools
