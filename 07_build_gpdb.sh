@@ -5,7 +5,7 @@
 
 install_dir="/usr/local/gpdb"
 
-git clone https://github.com/greenplum-db/gpdb.git
+git clone https://github.com/greenplum-db/gpdb.git -b 5X_STABLE --single-branch
 cd gpdb/
 ./configure --with-perl --with-python --with-libxml --prefix=/usr/local/gpdb
 make -j8
